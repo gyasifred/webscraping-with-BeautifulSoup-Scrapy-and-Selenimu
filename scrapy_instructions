@@ -1,0 +1,12 @@
+# Scrappy Commands
+## start project
+- scrapy startproject webscrapping
+- cd webscrapping
+## Create a spider
+- scrapy genspider worldometers www.worldometers.info/world-population/population-by-country/
+
+# crawl 
+- cd ..
+- scrapy crawl worldometers
+# save 
+ scrapy crawl worldometers -o population.json
